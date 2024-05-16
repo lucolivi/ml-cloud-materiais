@@ -1,0 +1,6 @@
+paths:
+  - file: ./loan_approval_dataset.csv
+transformations:
+  - read_delimited:
+        delimiter: ','
+        encoding: 'ascii'
